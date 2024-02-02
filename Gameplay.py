@@ -15,6 +15,7 @@ def winner(player,opponent):
     if (player == 'r' and opponent == 'p') or (player == 'p' and opponent == 's')\
             or ( player == 's' and opponent == 'r'):
         return True
+    return False
 
 print(gameplay())
 
